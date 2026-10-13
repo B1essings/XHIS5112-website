@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaTech Service Portal | Knowledge Base</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo"><span class="logo-mark">NT</span><span class="logo-text">Nova<span class="logo-accent">Tech</span></span></a>
+    <nav class="nav" id="nav">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="submit-ticket.html">Submit a Ticket</a></li>
+        <li><a href="knowledge-base.html" class="active">Knowledge Base</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container">
+    <h1>Knowledge Base</h1>
+    <p>Find quick answers, download forms, and review our escalation policy.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">FAQs &amp; Troubleshooting</span>
+      <h2>Frequently asked questions</h2>
+      <p>Click a question to reveal the answer. Most common issues are resolved here without logging a ticket.</p>
+    </div>
+
+    <div class="kb-item">
+      <h3>Why is my Wi-Fi not working?</h3>
+      <button class="kb-toggle">Show answer</button>
+      <div class="kb-answer">
+        <p>Work through these steps in order:</p>
+        <p>1. Confirm Wi-Fi is switched on and Airplane mode is off.<br>
+        2. Restart your laptop and the nearest Wi-Fi access point.<br>
+        3. Forget the network and reconnect to "NovaTech-Corp".<br>
+        4. Check whether colleagues nearby have the same problem. If the whole area is offline, the fault is likely a switch or access point, not your device.<br>
+        5. Still offline after these steps? Log a ticket under category "Network" and mention your building and floor. If downtime exceeds 30 minutes, the ticket is escalated immediately.</p>
+      </div>
+    </div>
+
+    <div class="kb-item">
+      <h3>How do I reset my password?</h3>
+      <button class="kb-toggle">Show answer</button>
+      <div class="kb-answer">
+        <p>Open the NovaTech portal, select "Forgot password", enter your employee ID, and follow the link sent to your registered email. If the link does not arrive within 10 minutes, log a ticket under "Access &amp; Accounts".</p>
+      </div>
+    </div>
+
+    <div class="kb-item">
+      <h3>How do I set up VPN on my laptop?</h3>
+      <button class="kb-toggle">Show answer</button>
+      <div class="kb-answer">
+        <p>Install the NovaTech VPN client from the software portal, sign in with your NovaTech credentials, and select the office region. Keep the client updated; older versions are the most common cause of failed connections.</p>
+      </div>
+    </div>
+
+    <div class="kb-item">
+      <h3>My printer is not responding. What should I check?</h3>
+      <button class="kb-toggle">Show answer</button>
+      <div class="kb-answer">
+        <p>Confirm the printer is powered on and connected to the network, check for paper jams, and restart the print spooler on your PC (services.msc, restart "Print Spooler"). If other users cannot print either, log a ticket under "Hardware".</p>
+      </div>
+    </div>
+
+    <div class="kb-item">
+      <h3>What do the ticket priorities mean?</h3>
+      <button class="kb-toggle">Show answer</button>
+      <div class="kb-answer">
+        <p><strong>Low</strong> - minor inconvenience, no work blocked (e.g. single monitor flickering).<br>
+        <strong>Medium</strong> - some work impact but you can continue (e.g. software crashing on save).<br>
+        <strong>High</strong> - work is stopped or multiple users are affected (e.g. office Wi-Fi down). High-priority tickets are escalated immediately.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">How we escalate</span>
+      <h2>Escalation policy</h2>
+      <p>Every ticket follows a documented three-level process with clear response targets.</p>
+    </div>
+    <div class="card-grid">
+      <div class="card"><div class="card-icon">1</div><h3>Level 1 - Service Desk</h3><p>First-line support responds within 2 hours. Handles password resets, known fixes, and initial diagnosis.</p></div>
+      <div class="card"><div class="card-icon">2</div><h3>Level 2 - Specialists</h3><p>Escalated when Level 1 cannot resolve the issue. Responds within 24 hours and handles deeper technical faults.</p></div>
+      <div class="card"><div class="card-icon">3</div><h3>Level 3 - Experts</h3><p>Escalated for complex infrastructure or vendor cases. Responds within 48 hours or more for complex cases.</p></div>
+    </div>
+    <div class="info-note" style="margin-top:24px;">
+      <strong>Escalation triggers:</strong> a ticket is escalated when it remains unresolved after two follow-ups, or when network downtime exceeds 30 minutes.
+      Because most tickets involve network infrastructure, technicians first check the path from your device to the LAN: cabling, switch ports, routers, and access points, before moving up a level.
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container narrow">
+    <div class="section-head">
+      <span class="section-tag">Downloads</span>
+      <h2>Forms and documents</h2>
+      <p>Download the forms you need. Completed change requests are submitted to the service desk for approval.</p>
+    </div>
+    <div class="download-list">
+      <div class="download-item">
+        <span class="file-icon">&#128196;</span>
+        <div><strong>Change Request Form</strong><small>Request IT system changes such as Wi-Fi upgrades or new software</small></div>
+        <a class="btn btn-primary" href="downloads/NovaTech_Change_Request_Form.pdf" download>Download</a>
+      </div>
+      <div class="download-item">
+        <span class="file-icon">&#128196;</span>
+        <div><strong>Escalation Policy (PDF)</strong><small>The full three-level escalation policy with response times</small></div>
+        <a class="btn btn-primary" href="downloads/NovaTech_Escalation_Policy.pdf" download>Download</a>
+      </div>
+      <div class="download-item">
+        <span class="file-icon">&#128202;</span>
+        <div><strong>Asset Register &amp; Ticket Statistics (Excel)</strong><small>Underlying data used by the performance dashboard</small></div>
+        <a class="btn btn-primary" href="downloads/NovaTech_Asset_Register_and_Ticket_Statistics.xlsx" download>Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" class="logo"><span class="logo-mark">NT</span><span class="logo-text">Nova<span class="logo-accent">Tech</span></span></a>
+      <p>Reliable IT support for modern business.</p>
+    </div>
+    <div><h4>Portal</h4><ul>
+      <li><a href="submit-ticket.html">Submit a Ticket</a></li>
+      <li><a href="knowledge-base.html">Knowledge Base</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li></ul></div>
+    <div><h4>SLA</h4><ul>
+      <li>Level 1: within 2 hours</li>
+      <li>Level 2: within 24 hours</li>
+      <li>Level 3: within 48 hours</li></ul></div>
+    <div><h4>Contact</h4><ul>
+      <li>support@novatech.co.za</li>
+      <li>Ext 2000</li></ul></div>
+  </div>
+  <div class="container footer-bottom"><p>&copy; 2026 NovaTech Solutions. All rights reserved.</p></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
